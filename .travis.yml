@@ -15,4 +15,4 @@ before_install:
   - chmod +x gradlew
 
 script:
-  - ./gradlew clean lib_coroutine:uploadArchives
+  - ./gradlew clean lib_coroutine:uploadArchives -Prelease
